@@ -1,0 +1,137 @@
+.navbar, .container-fluid{
+    background-color: #000000;
+    
+}
+.navbar-brand{
+    margin-right: 20% !important
+}
+.nav-item{
+    margin-right: 20px
+}
+
+.about h2, .clientele-head, .projetcs-head{
+    color: #17958D !important;
+}
+
+.about-text{
+    color: white !important;
+    font-size: 18px;
+}
+
+.stv{
+    background-color: #0C0C0C;
+    color: white
+}
+
+.projects{
+    color: white;
+}
+
+.clientele-text {
+    color: white;
+}
+
+.card{
+    background-color: rgba(245,245,245,0.4) !important;
+    padding: 20px !important;
+}
+
+.sub-text{
+    color: white;
+    font-size: 12px;
+}
+.subscribe-head-text{
+    color: white;
+    font-weight: 700;
+   }
+
+@media screen and (min-width: 992px){
+    .about{
+        /* padding: 120px; */
+        padding-left: 80px !important;
+        padding-top: 160px !important;
+    }
+
+    .stv{
+        padding: 60px !important;
+    }
+
+    .mission, .vision, .name-logic{
+       padding: 40px !important;
+    }
+
+   .projects{
+       padding: 60px;
+   }
+
+   .clientele-main{
+   padding: 100px !important;
+   }
+
+   .projects-img{
+       margin-left: 12.333333% !important;
+   }
+
+   .footer-row{
+       margin-top: 150px;
+   }
+
+   .f-logo{
+     padding-left: 150px !important;
+   }
+
+
+
+   .subscribe-head{
+    float: right;
+    padding-top: 35px;
+    padding-right: 150px;
+   }
+}
+
+
+@media screen and (max-width: 991px){
+    .navbar-nav{
+        display: none !important;
+    }
+
+    .about h2{
+        color: #17958D !important;
+        text-align: start;
+    }
+
+    .about{
+        padding: 60px !important;
+        text-align: start !important;
+    }
+
+    .about-text{
+        color: white !important;
+        font-size: 14px;
+    }
+
+    .mission, .vision, .name-logic{
+        padding: 60px !important;
+        font-size: 14px;
+    }
+
+    .a, .b, .c, .d{
+        padding: 60px !important;
+    }
+
+    .ray-pic{
+        padding: 60px !important;
+    }
+
+    .clientele-main{
+        padding: 60px !important;
+       }
+
+       .projects-img{
+        padding: 45px !important;
+    }
+
+    .dev_2, .dev_3{
+        padding: 25px !important;
+    }
+}

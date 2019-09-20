@@ -1,0 +1,66 @@
+.navbar, .container-fluid{
+    background-color: #000000;
+    
+}
+.navbar-brand{
+    margin-right: 20% !important
+}
+.nav-item{
+    margin-right: 20px
+}
+
+.head-white{
+    color: white;
+}
+
+.content{
+    color: white
+}
+
+@media screen and (max-width: 991px){
+    .navbar-nav{
+        display: none !important;
+    }
+
+    .development{
+        padding: 45px !important;
+        text-align: start !important;
+    }
+
+    .content{
+        font-size: 14px !important;
+    }
+
+    .service_1 ,.service_2, .service_3, .seo, .branding{
+        padding: 45px !important;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+    .development{
+        padding-left: 50px !important;
+        padding-top: 155px !important;
+    }
+
+    .service_1{
+        padding: 45px !important;
+    }
+
+    .service_2{
+        padding: 45px !important;
+    }
+
+    .seo{
+        padding-top: 135px !important;
+    }
+
+    .branding{
+        padding-left: 45px !important;
+        padding-top: 30px !important;
+    }
+
+    .branding-row{
+        margin-top: 40px !important;
+    }
+}

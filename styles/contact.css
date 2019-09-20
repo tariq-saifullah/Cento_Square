@@ -1,0 +1,58 @@
+.navbar, .container-fluid{
+    background-color: #000000;
+    
+}
+.navbar-brand{
+    margin-right: 20% !important
+}
+.nav-item{
+    margin-right: 20px
+}
+
+.contact-form label{
+    color: white;
+}
+
+.contact-form input{
+    border-radius: 0.8rem;
+    padding: 20px;
+}
+
+.send{
+    display: block !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+    border-radius: 1.5rem !important;
+    width: 100px;
+    background-color: #17958D !important;
+    border-color: #17958D !important;
+}
+
+@media screen and (max-width: 991px){
+    .navbar-nav{
+        display: none !important;
+    }
+
+    .contact-form{
+        padding-right: 50px !important;
+        padding-left: 50px !important;
+    }
+
+    .contact-img{
+        padding: 15px !important;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+  .contact-form{
+      padding: 100px !important;
+  }
+
+  .contact-img{
+      padding: 10px !important;
+      margin-top: 60px;
+  }
+
+
+}

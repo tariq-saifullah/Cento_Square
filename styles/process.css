@@ -1,0 +1,62 @@
+.navbar, .container-fluid{
+    background-color: #000000;
+    
+}
+.navbar-brand{
+    margin-right: 20% !important
+}
+.nav-item{
+    margin-right: 20px
+}
+
+.head, .content{
+    color: white;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 991px){
+    .navbar-nav{
+        display: none !important;
+    }
+
+    .process-main{
+        padding: 45px !important;
+        text-align: start;
+    }
+
+    .idea-int, .process_1, .process_2, .optimum-sol, .milestone{
+        padding: 45px !important;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    .top-row{
+        margin-top: 40px !important;
+    }
+    .process-main{
+        padding-left: 45px !important;
+        padding-top: 100px !important;
+    }
+
+    .idea-int{
+        padding-left: 45px !important;
+        padding-top: 65px !important;
+    }
+
+    .process_1, .process_2{
+        padding: 45px !important;
+    }
+
+    .optimum-sol{
+     padding-top: 100px !important;
+    }
+
+    .milestone{
+        padding-left: 45px !important;
+        padding-top: 90px !important;
+    }
+}
