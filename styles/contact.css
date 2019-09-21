@@ -49,10 +49,17 @@
       padding: 100px !important;
   }
 
+  textarea{
+    border-radius: 1.25rem !important;
+  }
+
   .contact-img{
       padding: 10px !important;
       margin-top: 60px;
   }
 
+  .send{
+      float: right !important;
+  }
 
 }
