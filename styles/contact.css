@@ -28,6 +28,76 @@
     border-color: #17958D !important;
 }
 
+.sub-text{
+    color: white;
+    font-size: 14px;
+}
+.subscribe-head-text{
+    color: white;
+    font-weight: 700;
+    font-size: 16px !important;
+   }
+
+ .f-email{
+    width: 165px !important;
+    border-radius: 1.5rem !important;
+    opacity: 0.5 !important;
+    padding: 14px !important;
+    font-size: 12px !important;
+}
+.btn-go{
+    border-radius: 2.5rem !important;
+    background-color: white !important;
+    border-color: white !important;
+    color: black !important;
+    width: 45px !important;
+    height: 35px !important;
+}
+hr {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px !important;
+    background-color:#666;
+    opacity: 0.5;
+    }
+
+    .social-icon{
+        width: 60%;
+        height: 60%;
+    } 
+    
+    .list-inline-item{
+        margin-right: 5px !important;
+    }
+    
+      .footer-copyright{
+         color: white;
+      }
+
+      .copyright-text{
+        display: inline-block;
+    }
+
+    .left-foo-text, .right-foo-text{
+        color: white;
+        font-size: 12px;
+    }
+
+    .footer-nav a {
+        color: white !important;
+        /* padding-right: 30px; */
+        font-size: 12px;
+    }
+
+    .footer-nav li{
+        list-style: none !important;
+      }
+
+    .footer-nav a :hover {
+    text-decoration: none !important;
+    }
+
 @media screen and (max-width: 991px){
     .navbar-nav{
         display: none !important;
@@ -61,5 +131,50 @@
   .send{
       float: right !important;
   }
+
+  
+  .footer-row{
+    margin-top: 150px;
+}
+
+.f-logo{
+  padding-left: 150px !important;
+}
+
+.subscribe-head{
+ float: right;
+ padding-top: 35px;
+ padding-right: 150px;
+}
+
+.form-inline{
+    float: none !important;
+    margin-right: 10px !important;
+    margin-top: 25px !important;
+}
+
+.f-contact{
+    font-size: 16px !important;
+}
+
+.company-contact{
+  float: right;
+}
+
+.contact-info{
+   margin-top: 60px !important;
+}
+
+.footer-nav{
+   margin-top: 155px !important;
+}
+
+.right-foo-text{
+   margin-top: 60px !important;
+}
+
+.main-footer{
+   /* margin-top: 10px; */
+}
 
 }
