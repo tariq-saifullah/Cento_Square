@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 .navbar, .container-fluid{
     background-color: #000000;
     
@@ -35,13 +40,16 @@
     padding: 14px !important;
     font-size: 12px !important;
 }
-.btn-go{
-    border-radius: 2.5rem !important;
+.btn-circle {
+    width: 30px !important;
+    height: 30px !important;
+    padding: 6px 0px !important;
+    border-radius: 15px !important;
+    text-align: center !important;
+    font-size: 12px !important;
+    line-height: 1.42857 !important;
     background-color: white !important;
-    border-color: white !important;
-    color: black !important;
-    width: 45px !important;
-    height: 35px !important;
+    margin-left: 10px !important;
 }
 hr {
     width: 85%;
@@ -117,6 +125,7 @@ text-decoration: none !important;
 
     .right-foo-text{
         text-align: center !important;
+        margin-top: 20px !important;
     }
 
     .right-foo-text h4{
@@ -130,12 +139,30 @@ text-decoration: none !important;
     .form-inline{
         margin: auto !important;
         display: inline-flex !important;
-        margin-top: 30px !important;
     }
 
     .btn-go{
         margin-left: 12px;
     }
+
+    .main-footer{
+        text-align: center !important;
+        margin-top: 100px;
+    }
+
+    .btn-circle{
+        margin-bottom: 4% !important;
+    }
+
+        
+    .list-small{
+        margin: auto;
+        margin-top: 30px;
+     }
+ 
+     .list-big{
+         display: none !important;
+     }
 }
 
 @media screen and (min-width: 992px){
@@ -201,9 +228,41 @@ text-decoration: none !important;
     .footer-nav{
        margin-top: 155px !important;
     }
+
+    .main-footer{
+        margin-top: 130px;
+    }
     
     .right-foo-text{
        margin-top: 60px !important;
     }
+
+    .left-foo-text{
+        padding-right: 40px !important;
+    }
+
+    .copyright-text{
+        padding-left: 100px !important;
+    }
     
+    .list-bg{
+       padding-right: 104px !important;
+    }
+
+    
+    .list-big{
+        padding-right: 104px !important;
+     }
+     
+     .list-small{
+         display: none !important;
+     }
+    
+}
+
+@media screen and (max-width: 1025px){
+    .ray-image{
+        margin-top: 80px !important;
+    }
+
 }
