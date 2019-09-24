@@ -8,7 +8,7 @@ html, body {
     
 }
 .navbar-brand{
-    margin-right: 20% !important
+    margin-right: 25% !important
 }
 .nav-item{
     margin-right: 20px
@@ -166,6 +166,11 @@ text-decoration: none !important;
 }
 
 @media screen and (min-width: 992px){
+
+    .nav-top{
+        padding-left: 120px !important;
+        padding-right: 290px !important;
+    }
 
     .top-row{
         margin-top: 40px !important;
